@@ -5,5 +5,7 @@ The implemented ANN achieved an impressive accuracy score of 91% on unseen data.
 
 Matplotlib was used to plot the accuracy of the model against the number of epochs during training, providing visual insights into the model's performance over time.
 
+MNIST Dataset: https://www.kaggle.com/datasets/oddrationale/mnist-in-csv?select=mnist_train.csv
+
 ## Packages Used
 Numpy, Pandas, MatPlotLib
