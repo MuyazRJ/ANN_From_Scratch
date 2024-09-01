@@ -206,7 +206,7 @@ class NumberClassifierANN():
         plt.show()
 
 numberANN = NumberClassifierANN()
-numberANN.import_dataset()
+numberANN.import_dataset() # import, clean and format dataset
 numberANN.gradient_descent(numberANN.trainData, numberANN.trainDataLabels, 1000)
 numberANN.make_predictions_on_test_dataset()
 numberANN.plot_accuracy() # Plot accuracy over epochs
